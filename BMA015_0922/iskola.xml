@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iskola>
+    <tanar kod="SFK026">
+        <nev>Dudás László</nev>
+        <szak>Programtervezo bsc</szak>
+    </tanar>
+    <tantárgy kod="GEMAN-36" oktato="SFK026">
+        <tnév>Mestersége intellgiencia</tnév>
+        <osztaly>5</osztaly>
+    </tantárgy>
+    <tanar kod="JKL123">
+        <nev>Oktato 2</nev>
+        <szak>Programtervezo bsc</szak>
+    </tanar>
+    <tantárgy kod="GEMAN-623" oktato="JKL123">
+        <tnév>Targy 2</tnév>
+        <osztaly>18</osztaly>
+    </tantárgy>
+
+</iskola>
