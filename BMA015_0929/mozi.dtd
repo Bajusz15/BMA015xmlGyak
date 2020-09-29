@@ -1,0 +1,21 @@
+<!DOCTYPE mozi [
+        <!ELEMENT mozi (film)*>
+        <!ATTLIST mozi
+                xmlns:xsi CDATA #REQUIRED
+                xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
+        <!ELEMENT film (rendezo|szinesz|iro)*>
+        <!ATTLIST film
+                id ID #REQUIRED
+                mufaj CDATA #REQUIRED>
+        <!ELEMENT rendezo (#PCDATA)>
+        <!ATTLIST rendezo
+                id ID #REQUIRED
+                nev CDATA #REQUIRED>
+        <!ELEMENT szinesz (#PCDATA)>
+        <!ATTLIST szinesz
+                id ID #REQUIRED
+                nev CDATA #REQUIRED>
+        <!ELEMENT iro (#PCDATA)>
+        <!ATTLIST iro
+                id ID #REQUIRED>
+        ]>

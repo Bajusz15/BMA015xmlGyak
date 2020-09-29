@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="orarend" type="orarendType"/>
+  <xs:complexType name="idopontType">
+    <xs:sequence>
+      <xs:element name="nap">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Hétfő"/>
+            <xs:enumeration value="Kedd"/>
+            <xs:enumeration value="Szerda"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="tol">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="12:00"/>
+            <xs:enumeration value="14:00"/>
+            <xs:enumeration value="10:00"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ig">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="15:00"/>
+            <xs:enumeration value="14:00"/>
+            <xs:enumeration value="16:00"/>
+            <xs:enumeration value="11:00"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="oraType">
+    <xs:sequence>
+      <xs:element name="targy">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Mesterség Inteligencia"/>
+            <xs:enumeration value="Adatkezelés XML-ben"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="idopontType" name="idopont"/>
+      <xs:element name="helyszin">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="XXX A1 III. em. 305"/>
+            <xs:enumeration value="XXXVII A3 A5 között"/>
+            <xs:enumeration value="In/101 In I. e. 101"/>
+            <xs:enumeration value="In/15 In. fsz 15"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="oktato">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Dr. Dudás László"/>
+            <xs:enumeration value="Dr. Bednarik László"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="szak"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+    <xs:attribute type="xs:string" name="tipus" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="orarendType">
+    <xs:sequence>
+      <xs:element type="oraType" name="ora"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
