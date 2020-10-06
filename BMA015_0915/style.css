@@ -1,0 +1,15 @@
+.tablazat {
+    border-spacing: 0;
+    /*border-collapse: collapse;*/
+    border: 20px solid #4169e1;
+    margin-bottom: 10px;
+    border-radius: 18px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+}
+td {
+    padding: 5px;
+    text-align: middle;
+    /*color: white;*/
+    border: 2px solid #ddd;
+}

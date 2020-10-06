@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cím>
+        Valami
+    </cím>
+
+    <előadó>
+        <név>
+            Valaki
+        </név>
+        <lakcím>
+            Valahol
+        </lakcím>
+       <adószám>
+           12345678
+       </adószám>
+    </előadó>
+
+    <dátum>
+        2020.09.31
+    </dátum>
+    <hallgató>
+        <név>
+
+        </név>
+        <lakcím>
+
+        </lakcím>
+    </hallgató>
+    <helyszín>
+        Miskolc
+    </helyszín>
+</konferencia>
