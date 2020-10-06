@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nevjegykartyak>
-    <nevjegykatya id="1">
-        <nev></nev>
-        <ceg></ceg>
-        <beosztas></beosztas>
-        <telefonszam></telefonszam>
-        <email></email>
-    </nevjegykatya>
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+                xsi:noNamespaceSchemaLocation="nevjegykartya.xsd">
+    <nevjegykartya id="1">
+        <nev>Bajusz Máté</nev>
+        <ceg>
+            <cim>
+                <iranyitoszam>1123</iranyitoszam>
+                <varos>Budapest</varos>
+                <utca>Alkotás utca</utca>
+                <hazszam>44</hazszam>
+            </cim>
+            <nev>Webpont Kft</nev>
+            <telefonszam korzet="36">30123456</telefonszam>
+            <weblap>webpont.com</weblap>
+        </ceg>
+        <beosztas>Backend fejlesztő</beosztas>
+        <telefonszam korzet="36">30123456</telefonszam>
+        <email>bajszmate99@gmail.com</email>
+    </nevjegykartya>
 </nevjegykartyak>
