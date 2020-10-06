@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nevjegykartyak>
+    <nevjegykatya id="1">
+        <nev></nev>
+        <ceg></ceg>
+        <beosztas></beosztas>
+        <telefonszam></telefonszam>
+        <email></email>
+    </nevjegykatya>
+</nevjegykartyak>

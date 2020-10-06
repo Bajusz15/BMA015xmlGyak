@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+         xsi:noNamespaceSchemaLocation="orarend.xsd">
+    <ora id="1" tipus="Előadás">
+        <targy>Mesterség Inteligencia</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>12:00</tol>
+            <ig>15:00</ig>
+        </idopont>
+        <helyszin>XXX A1 III. em. 305</helyszin>
+        <oktato>Dr. Dudás László</oktato>
+        <szak>Programtervező bsc</szak>
+    </ora>
+    <ora id="2" tipus="Előadás">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>XXXVII A3 A5 között</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező bsc</szak>
+    </ora>
+    <ora id="3" tipus="Gyakorlat">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>In/101 In I. e. 101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező bsc</szak>
+    </ora>
+    <ora id="4" tipus="Gyakorlat">
+        <targy>Mesterség Inteligencia</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>10:00</tol>
+            <ig>11:00</ig>
+        </idopont>
+        <helyszin>In/15 In. fsz 15</helyszin>
+        <oktato>Dr. Dudás László</oktato>
+        <szak>Programtervező bsc</szak>
+    </ora>
+</orarend>
