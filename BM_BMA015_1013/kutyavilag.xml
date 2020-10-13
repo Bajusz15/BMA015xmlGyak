@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="IS0-8859-2"?>
+<konyv isbn="0836217462"  xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+       xsi:SchemaLocation="kutyavilag.xsd">
+    <cim>Kutyavilág</cim>
+    <szerzo>Charles M. Schulz</szerzo>
+    <szereplo>
+        <nev>Snoopy</nev>
+        <baratja>Poppormint Patty</baratja>
+        <szuletett>1950-10-04</szuletett>
+        <jellemzes>extrovertalt beagle</jellemzes>
+    </szereplo>
+    <szereplo>
+        <nev>Peppermint Patty</nev>
+        <szuletett>1966-08-22</szuletett>
+        <jellemzes>kover, vakmero leanyz6</jellemzes>
+    </szereplo>
+</konyv>
