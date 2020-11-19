@@ -24,12 +24,25 @@ public class XpathParseBMA015 {
 
 
 
-            XPathExpression expr = xpath.compile("//student[@rollno=393]/firstname/text()");
-            Object result = expr.evaluate(doc, XPathConstants.NODESET);
+            XPathExpression firstName = xpath.compile("//student/firstname/text()");
+            XPathExpression lastName = xpath.compile("//student/lastname/text()");
+            XPathExpression nickName = xpath.compile("//student/nickname/text()");
+            XPathExpression marks = xpath.compile("//student/marks/text()");
+            Object firstNameObject = firstName.evaluate(doc, XPathConstants.NODESET);
+            Object lastNameObject = lastName.evaluate(doc, XPathConstants.NODESET);
+            Object nickNameObject = nickName.evaluate(doc, XPathConstants.NODESET);
+            Object marksObject = marks.evaluate(doc, XPathConstants.NODESET);
 
-            NodeList nodes = (NodeList) result;
-            for (int i = 0; i < nodes.getLength(); i++) {
-                System.out.println(nodes.item(i).getNodeValue());
+            NodeList firstNameNodes = (NodeList) firstNameObject;
+            NodeList lastNameNodes = (NodeList) lastNameObject;
+            NodeList nickNameNodes = (NodeList) nickNameObject;
+            NodeList marksNodes = (NodeList) marksObject;
+            for (int i = 0; i < lastNameNodes.getLength(); i++) {
+                System.out.println("Current element: student");
+                System.out.println(firstNameNodes.item(i).getNodeValue());
+                System.out.println(lastNameNodes.item(i).getNodeValue());
+                System.out.println(nickNameNodes.item(i).getNodeValue());
+                System.out.println(marksNodes.item(i).getNodeValue());
             }
         } catch (Exception exception){
 
