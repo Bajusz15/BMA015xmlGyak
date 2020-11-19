@@ -1,5 +1,4 @@
 <?xml encoding="UTF-8"?>
-
         <!ELEMENT szemelyek (szemely)+>
         <!ATTLIST szemelyek
                 xmlns CDATA #FIXED ''>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type = "text/xsl" href="hallgatokBMA015.xsl"?>
+<osztaly>
+    <alkalmazott id="001">
+        <keresznev>Istvan</keresznev>
+        <vezeteknev>Arvai</vezeteknev>
+        <becenev>Arva</becenev>
+        <fizetes>40000</fizetes>
+    </alkalmazott>
+    <alkalmazott id="024">
+        <keresznev>Sara</keresznev>
+        <vezeteknev>Keszeg</vezeteknev>
+        <becenev>keszi</becenev>
+        <fizetes>30000</fizetes>
+    </alkalmazott>
+    <alkalmazott id="056">
+        <keresznev>Gabor</keresznev>
+        <vezeteknev>Simon</vezeteknev>
+        <becenev>simi</becenev>
+        <fizetes>500000</fizetes>
+    </alkalmazott>
+</osztaly>
