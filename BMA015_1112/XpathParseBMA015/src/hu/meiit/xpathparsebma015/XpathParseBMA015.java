@@ -22,8 +22,6 @@ public class XpathParseBMA015 {
 
             System.out.println("n//1) ");
 
-
-
             XPathExpression firstName = xpath.compile("//student/firstname/text()");
             XPathExpression lastName = xpath.compile("//student/lastname/text()");
             XPathExpression nickName = xpath.compile("//student/nickname/text()");

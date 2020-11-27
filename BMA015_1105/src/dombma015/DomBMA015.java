@@ -16,7 +16,6 @@ import org.xml.sax.SAXException;
 
 public class DomBMA015 {
     public static void main(String[] args) {
-
         try {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
 
@@ -51,6 +50,5 @@ public class DomBMA015 {
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
-
     }
 }

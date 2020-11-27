@@ -46,8 +46,5 @@ public class XpathQueryBMA015 {
         } catch (Exception exception){
 
         }
-
-
-
     }
 }
