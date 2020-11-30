@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><adatok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaBMA015.xsd">
+    <jatekos id="j1">
+        <keresztnev>Márton</keresztnev>
+        <vezeteknev>Kozák</vezeteknev>
+        <szuletesi_datum>1997.01.01</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j2">
+        <keresztnev>László</keresztnev>
+        <vezeteknev>Polyák</vezeteknev>
+        <szuletesi_datum>1997.01.01</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j3">
+        <keresztnev>Tamás</keresztnev>
+        <vezeteknev>Kósa</vezeteknev>
+        <szuletesi_datum>1999.01.01</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j4">
+        <keresztnev>János</keresztnev>
+        <vezeteknev>Velkey</vezeteknev>
+        <szuletesi_datum>1998.09.11</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j5">
+        <keresztnev>Bence</keresztnev>
+        <vezeteknev>Tóth</vezeteknev>
+        <szuletesi_datum>1997.08.15</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j6">
+        <keresztnev>Tibor</keresztnev>
+        <vezeteknev>Bán</vezeteknev>
+        <szuletesi_datum>1997.01.01</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j7">
+        <keresztnev>Csaba</keresztnev>
+        <vezeteknev>Ferencz</vezeteknev>
+        <szuletesi_datum>1997.12.25</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j8">
+        <keresztnev>Gergely</keresztnev>
+        <vezeteknev>Lajsz</vezeteknev>
+        <szuletesi_datum>1997.11.01</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j9">
+        <keresztnev>Bence</keresztnev>
+        <vezeteknev>Oroszi</vezeteknev>
+        <szuletesi_datum>1997.12.24</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j10">
+        <keresztnev>Milan</keresztnev>
+        <vezeteknev>CSorvasi</vezeteknev>
+        <szuletesi_datum>1998.02.02</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j11">
+        <keresztnev>Marcell</keresztnev>
+        <vezeteknev>Érsek</vezeteknev>
+        <szuletesi_datum>1997.03.15</szuletesi_datum>
+    </jatekos>
+    <jatekos id="j12">
+        <keresztnev>Ákos</keresztnev>
+        <vezeteknev>Németh</vezeteknev>
+        <szuletesi_datum>1997.10.23</szuletesi_datum>
+    </jatekos>
+    <csapat id="cs1">
+        <liga>hun</liga>
+        <nev>DEAC</nev>
+        <varos>Debrecen</varos>
+    </csapat>
+    <csapat id="cs2">
+        <liga>hun</liga>
+        <nev>Körmend</nev>
+        <varos>Körmend</varos>
+    </csapat>
+    <csapat id="cs3">
+        <liga>hun</liga>
+        <nev>Pécsi VSK-VEOLIA</nev>
+        <varos>Pécs</varos>
+    </csapat>
+    <csapat id="cs4">
+        <liga>hun</liga>
+        <nev>Alba Fehérvár</nev>
+        <varos>Fehérvár</varos>
+    </csapat>
+    <merkozes hazai_csapat="cs1" id="mi1" vendeg_csapat="cs2">
+        <eredmeny>
+            <hazai>35</hazai>
+            <vendeg>45</vendeg>
+        </eredmeny>
+        <liga>hun</liga>
+    </merkozes>
+    <merkozes hazai_csapat="cs3" id="mi2" vendeg_csapat="cs4">
+        <eredmeny>
+            <hazai>25</hazai>
+            <vendeg>39</vendeg>
+        </eredmeny>
+        <liga>hun</liga>
+    </merkozes>
+    <jatekos_statisztika csapat_id="cs1" jatekos="j1" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>5</szerzett_gol>
+        <jatszott_perc>21</jatszott_perc>
+        <mez_szam>11</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs1" jatekos="j2" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>4</szerzett_gol>
+        <jatszott_perc>25</jatszott_perc>
+        <mez_szam>22</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs1" jatekos="j4" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>3</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>13</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs1" jatekos="j5" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>13</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>99</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs1" jatekos="j6" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>8</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>89</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs2" jatekos="j7" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>7</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>29</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs2" jatekos="j8" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>11</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>39</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs2" jatekos="j9" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>6</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>44</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs2" jatekos="j10" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>12</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>56</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs2" jatekos="j11" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>4</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>66</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs2" jatekos="j12" meccs_id="mi1">
+        <liga>hun</liga>
+        <szerzett_gol>5</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>73</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs3" jatekos="j1" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>6</szerzett_gol>
+        <jatszott_perc>21</jatszott_perc>
+        <mez_szam>11</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs3" jatekos="j2" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>7</szerzett_gol>
+        <jatszott_perc>25</jatszott_perc>
+        <mez_szam>22</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs3" jatekos="j4" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>2</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>13</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs3" jatekos="j5" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>9</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>99</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs3" jatekos="j6" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>1</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>89</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs4" jatekos="j7" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>3</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>29</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs4" jatekos="j8" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>3</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>39</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs4" jatekos="j9" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>4</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>44</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs4" jatekos="j10" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>5</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>56</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs4" jatekos="j11" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>5</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>66</mez_szam>
+    </jatekos_statisztika>
+    <jatekos_statisztika csapat_id="cs4" jatekos="j12" meccs_id="mi2">
+        <liga>hun</liga>
+        <szerzett_gol>5</szerzett_gol>
+        <jatszott_perc>23</jatszott_perc>
+        <mez_szam>73</mez_szam>
+    </jatekos_statisztika>
+</adatok>

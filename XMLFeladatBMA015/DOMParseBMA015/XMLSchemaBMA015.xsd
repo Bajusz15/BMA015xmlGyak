@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="adatok">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="jatekos"/>
+                <xs:element maxOccurs="unbounded" ref="csapat"/>
+                <xs:element maxOccurs="unbounded" ref="merkozes"/>
+                <xs:element maxOccurs="unbounded" ref="jatekos_statisztika"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="jatekos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="keresztnev"/>
+                <xs:element ref="vezeteknev"/>
+                <xs:element ref="szuletesi_datum"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:ID" />
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="keresztnev" type="xs:string"/>
+    <xs:element name="vezeteknev" type="xs:string"/>
+    <xs:element name="szuletesi_datum" type="xs:string"/>
+    <xs:element name="csapat">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="liga"/>
+                <xs:element ref="nev"/>
+                <xs:element ref="varos"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nev" type="xs:string"/>
+    <xs:element name="varos" type="xs:string"/>
+    <xs:element name="merkozes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="eredmeny"/>
+                <xs:element ref="liga"/>
+            </xs:sequence>
+            <xs:attribute name="hazai_csapat" use="required" type="xs:string"/>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="vendeg_csapat" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="eredmeny">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="hazai"/>
+                <xs:element ref="vendeg"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="hazai" type="xs:integer"/>
+    <xs:element name="vendeg" type="xs:integer"/>
+    <xs:element name="jatekos_statisztika">
+        <xs:complexType>
+            <xs:sequence >
+                <xs:element name="liga"/>
+                <xs:element name="szerzett_gol"/>
+                <xs:element name="jatszott_perc"/>
+                <xs:element ref="mez_szam"/>
+            </xs:sequence>
+            <xs:attribute name="csapat_id" type="xs:string"/>
+            <xs:attribute name="jatekos" use="required" type="xs:string"/>
+            <xs:attribute name="meccs_id" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="jatszott_perc" type="xs:integer"/>
+    <xs:element name="szerzett_gol" type="xs:integer"/>
+    <xs:element name="mez_szam" type="xs:integer"/>
+    <xs:element name="liga" type="xs:string"/>
+</xs:schema>
