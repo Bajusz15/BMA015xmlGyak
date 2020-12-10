@@ -1,0 +1,14 @@
+{
+  "konyvek": {
+    "konyv": [
+      {
+        "language": "Java Útkalauz programozóknak 5.0",
+        "author": "Nyékné Dr.Graizler Judit"
+      },
+      {
+        "language": "Adatkezelés XML környezetbe",
+        "author": "Kovács László"
+      }
+    ]
+  }
+}
